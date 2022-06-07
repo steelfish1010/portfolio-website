@@ -5,10 +5,10 @@ import NewsAPI from '../assets/news-site-backend.png';
 
 const Work = () => {
 	return (
-		<div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+		<div name='work' className='w-full md:h-screen text-blue-100 bg-[#41464c]'>
 			<div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 				<div className='pb-8'>
-					<p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
+					<p className='text-4xl font-bold inline border-b-4 border-orange-600'>
 						Work
 					</p>
 					<p className='py-6'>Some of my recent work</p>
@@ -18,11 +18,11 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${ReactNews})` }}
-						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold text-gray-700 tracking-wider'>
 								React JS news app
 							</span>
 							<div className='pt-8 text-center'>
@@ -50,11 +50,11 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${NewsAPI})` }}
-						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold text-gray-700 tracking-wider'>
 								Express API News Articles
 							</span>
 							<div className='pt-8 text-center'>
@@ -82,11 +82,11 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${DnDinder})` }}
-						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white text-center tracking-wider'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
+							<span className=' text-2xl font-bold text-gray-300  tracking-wider'>
 								DnDinder web app: Firebase/React
 							</span>
 							<div className='pt-8 text-center'>
@@ -123,11 +123,11 @@ const Work = () => {
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${ReactNews})` }}
-						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
+						<div className='opacity-0 group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold text-gray-700 tracking-wider'>
 								Coming Soon...
 							</span>
 							<div className='pt-8 text-center'>

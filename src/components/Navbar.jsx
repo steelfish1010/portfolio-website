@@ -12,7 +12,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#41464c] text-blue-100'>
 			<div>
 				<img src={logo} alt='logo' style={{ width: '50px' }} />
 			</div>
@@ -99,28 +99,28 @@ const Navbar = () => {
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
 						<a
-							className='flex justify-between items-center w-full text-gray-300'
+							className='flex justify-between items-center w-full text-blue-100'
 							href='/'
 						>
 							Github <FaGithub size={30} />
 						</a>
 					</li>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-500'>
 						<a
-							className='flex justify-between items-center w-full text-gray-300'
+							className='flex justify-between items-center w-full text-[#202020]'
 							href='/'
 						>
-							Mail <HiOutlineMail size={30} />
+							Mail <HiOutlineMail size={30} color='#202020' />
 						</a>
 					</li>
-					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-400'>
+					{/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-400'>
 						<a
 							className='flex justify-between items-center w-full text-black'
 							href='/'
 						>
 							Other <BsFillPersonLinesFill size={30} />
 						</a>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</div>
