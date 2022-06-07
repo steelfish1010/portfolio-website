@@ -1,6 +1,7 @@
 import React from 'react';
-import WorkImg from '../assets/workImg.jpeg';
-import realestate from '../assets/realestate.jpg';
+import DnDinder from '../assets/dndinder.png';
+import ReactNews from '../assets/news-site-frontend.png';
+import NewsAPI from '../assets/news-site-backend.png';
 
 const Work = () => {
 	return (
@@ -16,21 +17,29 @@ const Work = () => {
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
 					{/* Grid Item */}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${ReactNews})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								React JS app
+								React JS news app
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a
+									href='https://the-awesome-steelfish1010-site.netlify.app'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
+								<a
+									href='https://github.com/steelfish1010/nc-news'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
@@ -40,21 +49,29 @@ const Work = () => {
 					</div>
 					{/* Grid Item */}
 					<div
-						style={{ backgroundImage: `url(${realestate})` }}
+						style={{ backgroundImage: `url(${NewsAPI})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								React JS app
+								Express API News Articles
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a
+									href='https://my-first-news-app.herokuapp.com/api'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
+								<a
+									href='https://github.com/steelfish1010/my-first-nc-example-project'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
@@ -64,23 +81,40 @@ const Work = () => {
 					</div>
 					{/* Grid Item */}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${DnDinder})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
-							<span className='text-2xl font-bold text-white tracking-wider'>
-								React JS app
+							<span className='text-2xl font-bold text-white text-center tracking-wider'>
+								DnDinder web app: Firebase/React
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a
+									href='https://dndinder-68dcc.firebaseapp.com/'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
+								<a
+									href='https://github.com/boa-constructor/frontend-react-app'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Code
+										Frontend Code
+									</button>
+								</a>
+								<a
+									href='https://github.com/boa-constructor/backend-firebase'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+										Backend Code
 									</button>
 								</a>
 							</div>
@@ -88,21 +122,21 @@ const Work = () => {
 					</div>
 					{/* Grid Item */}
 					<div
-						style={{ backgroundImage: `url(${realestate})` }}
+						style={{ backgroundImage: `url(${ReactNews})` }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								React JS app
+								Coming Soon...
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/'>
+								<a href='/Work' target='_blank' rel='noopener noreferrer'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
-								<a href='/'>
+								<a href='/Work' target='_blank' rel='noopener noreferrer'>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
 										Code
 									</button>
