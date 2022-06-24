@@ -92,7 +92,7 @@ const Navbar = () => {
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0a66c2]'>
 						<a
 							className='flex justify-between items-center w-full text-gray-300'
-							href='/'
+							href='https://www.linkedin.com/in/alicombes'
 						>
 							LinkedIn <FaLinkedin size={30} />
 						</a>
@@ -100,7 +100,7 @@ const Navbar = () => {
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
 						<a
 							className='flex justify-between items-center w-full text-blue-100'
-							href='/'
+							href='https://github.com/steelfish1010'
 						>
 							Github <FaGithub size={30} />
 						</a>
@@ -108,7 +108,7 @@ const Navbar = () => {
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-500'>
 						<a
 							className='flex justify-between items-center w-full text-[#202020]'
-							href='/'
+							href='mailto:amcombes@yahoo.co.uk'
 						>
 							Mail <HiOutlineMail size={30} color='#202020' />
 						</a>
