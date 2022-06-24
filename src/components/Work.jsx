@@ -21,17 +21,17 @@ const Work = () => {
 						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100 text-center'>
-							<span className='text-2xl font-bold text-gray-700 tracking-wider'>
+						<div className='opacity-0 bg-[#41464c] pt-2 rounded-lg group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold px-4 text-gray-300 tracking-wider'>
 								React JS news app
 							</span>
-							<div className='pt-8 text-center'>
+							<div className='pt-4 text-center'>
 								<a
 									href='https://the-awesome-steelfish1010-site.netlify.app'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2 bg-blue-100 text-orange-600 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
@@ -40,7 +40,7 @@ const Work = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2  bg-orange-600 text-blue-100  font-bold text-lg'>
 										Code
 									</button>
 								</a>
@@ -53,17 +53,17 @@ const Work = () => {
 						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100 text-center'>
-							<span className='text-2xl font-bold text-gray-700 tracking-wider'>
-								Express API News Articles
+						<div className='opacity-0 bg-[#41464c] pt-2 px-4 rounded-lg group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold text-gray-300 tracking-wider'>
+								Express API <br /> News Articles
 							</span>
-							<div className='pt-8 text-center'>
+							<div className='pt-4 text-center'>
 								<a
 									href='https://my-first-news-app.herokuapp.com/api'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2 bg-blue-100 text-orange-600 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
@@ -72,7 +72,7 @@ const Work = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2  bg-orange-600 text-blue-100  font-bold text-lg'>
 										Code
 									</button>
 								</a>
@@ -85,17 +85,17 @@ const Work = () => {
 						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100 text-center'>
-							<span className=' text-2xl font-bold text-gray-300  tracking-wider'>
-								DnDinder web app: Firebase/React
+						<div className='opacity-0 bg-[#41464c] pt-2 rounded-lg group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold text-gray-300 tracking-wider'>
+								DnDinder web app: <br /> Firebase/React
 							</span>
-							<div className='pt-8 text-center'>
+							<div className='pt-4 text-center flex items-center'>
 								<a
 									href='https://dndinder-68dcc.firebaseapp.com/'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2 bg-blue-100 text-orange-600 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
@@ -104,8 +104,9 @@ const Work = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Frontend Code
+									<button className='text-center rounded-md px-3 py-1.5 m-2  bg-orange-600 text-blue-100  font-bold text-sm'>
+										Frontend <br />
+										Code
 									</button>
 								</a>
 								<a
@@ -113,8 +114,8 @@ const Work = () => {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-										Backend Code
+									<button className='text-center rounded-md px-3 py-1.5 m-2  bg-orange-600 text-blue-100  font-bold text-sm'>
+										Backend <br /> Code
 									</button>
 								</a>
 							</div>
@@ -126,18 +127,18 @@ const Work = () => {
 						className='shadow-lg shadow-[#353535] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover effects */}
-						<div className='opacity-0 group-hover:opacity-100 text-center'>
-							<span className='text-2xl font-bold text-gray-700 tracking-wider'>
+						<div className='opacity-0 bg-[#41464c] pt-2 rounded-lg group-hover:opacity-100 text-center'>
+							<span className='text-2xl font-bold px-4 text-gray-300 tracking-wider'>
 								Coming Soon...
 							</span>
 							<div className='pt-8 text-center'>
 								<a href='/Work' target='_blank' rel='noopener noreferrer'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2 bg-blue-100 text-orange-600 font-bold text-lg'>
 										Demo
 									</button>
 								</a>
 								<a href='/Work' target='_blank' rel='noopener noreferrer'>
-									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+									<button className='text-center rounded-md px-4 py-3 m-2  bg-orange-600 text-blue-100  font-bold text-lg'>
 										Code
 									</button>
 								</a>
