@@ -3,8 +3,6 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import Node from '../assets/node.png';
 import Firebase from '../assets/firebase.png';
-import react from '../assets/react.png';
-import Github from '../assets/github.png';
 import Express from '../assets/express.jpg';
 import Jest from '../assets/jest.png';
 import Tailwind from '../assets/tailwind.png';
