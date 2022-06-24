@@ -18,22 +18,10 @@ const Skills = () => {
 						Skills
 					</p>
 					<p className='py-4'>
-						These are some of the technologies I've worked with
+						These are some of the technologies I've recently worked with:
 					</p>
 				</div>
 				<div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center mt-5'>
-					<div className='shadow-md shadow-[#353535] hover:scale-110 duration-500'>
-						<img className='w-20 mx-auto pt-4' src={HTML} alt='HTML icon' />
-						<p className='my-4'>HTML5</p>
-					</div>
-					<div className='shadow-md shadow-[#353535] hover:scale-110 duration-500'>
-						<img
-							className='w-20 mx-auto pt-4'
-							src={CSS}
-							alt='javascript icon'
-						/>
-						<p className='my-4'>CSS3</p>
-					</div>
 					<div className='shadow-md shadow-[#353535] hover:scale-110 duration-500'>
 						<img
 							className='w-20 mx-auto pt-4'
@@ -46,6 +34,19 @@ const Skills = () => {
 						<img className='w-20 mx-auto pt-4' src={Node} alt='node.js icon' />
 						<p className='my-4'>Node.js</p>
 					</div>
+					<div className='shadow-md shadow-[#353535] hover:scale-110 duration-500'>
+						<img className='w-20 mx-auto pt-4' src={HTML} alt='HTML icon' />
+						<p className='my-4'>HTML5</p>
+					</div>
+					<div className='shadow-md shadow-[#353535] hover:scale-110 duration-500'>
+						<img
+							className='w-20 mx-auto pt-4'
+							src={CSS}
+							alt='javascript icon'
+						/>
+						<p className='my-4'>CSS3</p>
+					</div>
+
 					<div className='shadow-md shadow-[#353535] hover:scale-110 duration-500'>
 						<img
 							className='w-20 mx-auto pt-6'
