@@ -12,9 +12,10 @@ const Navbar = () => {
 
 	return (
 		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#41464c] text-blue-100'>
-			<div>
+			<Link to='home' smooth={true} duration={500}>
 				<img src={logo} alt='logo' style={{ width: '50px' }} />
-			</div>
+			</Link>
+
 			{/* Menu */}
 
 			<ul className='hidden md:flex'>
